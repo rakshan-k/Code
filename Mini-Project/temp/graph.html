@@ -1,0 +1,49 @@
+<html>
+<head>
+    <!--java script link-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="graph.js"></script>
+    <!--css link-->
+    <link rel="stylesheet" href="graph.css">
+
+
+    <title>My Data</title>
+</head>
+<!---->
+<body>
+  <div class="container">
+    <div class="radio">
+    <input type="radio" value="day" name='view' id='day' />
+    <label for="day"></label>
+    </div>
+    </div>
+    <div class="right">day</div>
+     
+    <div class="container">
+    <div class="radio">
+    <input type="radio" value="week" name='view' id='week' />
+    <label for="week"></label>
+    </div>
+    </div>
+    <div class="right">week</div>
+  
+    <div class="container">
+      <div class="radio">
+      <input type="radio" value="month" name='view' id='month' />
+      <label for="month"></label>
+      </div>
+      </div>
+      <div class="right">month</div>
+
+    <!--Table and divs that hold the pie charts-->
+    <center>
+    <table class="center">
+      <tr>
+        <td><div id="piechart_div" class="piechart"></div></td>
+        <td><div id="barchart_div" class="barchart"></div></td>
+      </tr>
+    </table>
+    </center>
+</body>
+
+</html>
